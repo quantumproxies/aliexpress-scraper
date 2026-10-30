@@ -1,0 +1,67 @@
+{
+ "cli": "aliexpress-scraper",
+ "name": "AliExpress Scraper API",
+ "version": "0.1.0",
+ "description": "AliExpress scraper API for Python and the command line: product search results by keyword with sale price, original price, discount, units sold, rating, delivery dates and the Choice flag, as JSON or CSV. Free and open source; sign in with your QuanticData account, no proxies or headless browser to run.",
+ "links": {
+  "repo": "https://github.com/quantumproxies/aliexpress-scraper",
+  "page": "https://quanticdata.io/collectors/aliexpress-scraper-api/?utm_source=github&utm_medium=cli&utm_campaign=aliexpress-scraper",
+  "billing": "https://app.quanticdata.io/billing?utm_source=github&utm_medium=cli&utm_campaign=aliexpress-scraper",
+  "pricing": "https://quanticdata.io/pricing/?utm_source=github&utm_medium=cli&utm_campaign=aliexpress-scraper"
+ },
+ "commands": [
+  {
+   "name": "search",
+   "collector": "aliexpress_search",
+   "method": "search",
+   "help": "AliExpress product listings for a keyword",
+   "description": "AliExpress search results for a keyword — sale price, discount, units sold, rating and delivery dates.",
+   "positional": "query",
+   "positional_is_list": false,
+   "positional_optional": false,
+   "columns": [
+    "rank",
+    "product_id",
+    "price",
+    "discount_percent",
+    "rating",
+    "orders",
+    "title"
+   ],
+   "sample": "aliexpress_search",
+   "inputs": [
+    {
+     "name": "query",
+     "type": "string",
+     "required": true,
+     "description": "What to search, e.g. \"running shoes\".",
+     "arg": "query"
+    },
+    {
+     "name": "currency",
+     "type": "string",
+     "required": false,
+     "description": "Currency of the prices, e.g. USD or EUR.",
+     "arg": "currency"
+    },
+    {
+     "name": "country",
+     "type": "string",
+     "required": false,
+     "description": "Local AliExpress site, as an ISO country code (default us).",
+     "arg": "country"
+    },
+    {
+     "name": "max_results",
+     "type": "integer",
+     "required": false,
+     "description": "How many items to deliver at most (1–250). You pay only for delivered items.",
+     "min": 1,
+     "max": 250,
+     "default": 30,
+     "arg": "max_results"
+    }
+   ]
+  }
+ ]
+}

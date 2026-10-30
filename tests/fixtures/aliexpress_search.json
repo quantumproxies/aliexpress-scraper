@@ -1,0 +1,128 @@
+{
+ "run_id": "cmvksgegc0u2d41o52udv64d2",
+ "slug": "aliexpress_search",
+ "version": "1.1.1",
+ "status": "done",
+ "input": {
+  "query": "running shoes",
+  "country": "us",
+  "currency": "USD",
+  "max_results": 3
+ },
+ "count": 3,
+ "partial": false,
+ "finished_at": "2026-10-23T09:49:43.500Z",
+ "results": [
+  {
+   "url": "https://www.aliexpress.com/item/3256811986552410.html",
+   "page": 1,
+   "rank": 1,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S04a09eb3cb5444c698091c1d22b99cffl.jpg",
+   "price": "US $18.42",
+   "store": null,
+   "title": "2026 Air Cushion Running Shoes Jogging Marathon Men Sports Breathable Lightweight Women's Comfortable Nonskid Leisure Sneakers",
+   "choice": true,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S04a09eb3cb5444c698091c1d22b99cffl.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S7e4b795e59bd48dc854d4138bea01057M.jpg"
+   ],
+   "orders": "1,000+ sold",
+   "rating": 4.9,
+   "sku_id": "12000057698230123",
+   "currency": "USD",
+   "delivery": null,
+   "listed_at": "2026-04-25",
+   "sponsored": false,
+   "store_url": null,
+   "product_id": "3256811986552410",
+   "ships_from": null,
+   "category_id": "200000970",
+   "price_value": 18.42,
+   "orders_count": 1429,
+   "free_shipping": false,
+   "original_price": "US $47.85",
+   "selling_points": [
+    "New shoppers save $29.43",
+    "Lowest price in 90 days"
+   ],
+   "discount_percent": 61,
+   "delivery_date_max": "2026-11-03",
+   "delivery_date_min": "2026-10-29",
+   "original_price_value": 47.85
+  },
+  {
+   "url": "https://www.aliexpress.com/item/3256810547084248.html",
+   "page": 1,
+   "rank": 2,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb3c9a47ff1a544b89095dd2c2cd4df19T.jpg",
+   "price": "US $17.69",
+   "store": null,
+   "title": "Marathon Men Sports Running Shoes Carbon Board Air Cushion Breathable Lightweight Women's Comfortable Athletic Nonskid Sneakers",
+   "choice": true,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sb3c9a47ff1a544b89095dd2c2cd4df19T.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S6896b75450984d0e880ff259705e35c8U.jpg"
+   ],
+   "orders": "5,000+ sold",
+   "rating": 4.7,
+   "sku_id": "12000053348964164",
+   "currency": "USD",
+   "delivery": null,
+   "listed_at": "2026-01-06",
+   "sponsored": false,
+   "store_url": null,
+   "product_id": "3256810547084248",
+   "ships_from": null,
+   "category_id": "201531001",
+   "price_value": 17.69,
+   "orders_count": 7737,
+   "free_shipping": false,
+   "original_price": "US $44.03",
+   "selling_points": [
+    "$16.81 each, ≥ 2 pieces",
+    "New shoppers save $26.34"
+   ],
+   "discount_percent": 59,
+   "delivery_date_max": "2026-11-03",
+   "delivery_date_min": "2026-10-29",
+   "original_price_value": 44.03
+  },
+  {
+   "url": "https://www.aliexpress.com/item/3256812072306533.html",
+   "page": 1,
+   "rank": 3,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Seaf865cf272d4e7ba373225023c02d0dF.jpg",
+   "price": "US $9.79",
+   "store": null,
+   "title": "Men's Large Size Outdoor Hiking And Running Shoes Comfortable Casual Versatile Fashionable Sports Shoes for Couples Training",
+   "choice": true,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Seaf865cf272d4e7ba373225023c02d0dF.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sdabb964634814fbe97c59e87ea308a0f8.jpg"
+   ],
+   "orders": "3,000+ sold",
+   "rating": 4.9,
+   "sku_id": "12000057890139620",
+   "currency": "USD",
+   "delivery": "Fastest delivery in 6 days",
+   "listed_at": "2026-05-09",
+   "sponsored": false,
+   "store_url": null,
+   "product_id": "3256812072306533",
+   "ships_from": null,
+   "category_id": "201531001",
+   "price_value": 9.79,
+   "orders_count": 3418,
+   "free_shipping": false,
+   "original_price": "US $22.79",
+   "selling_points": [
+    "Fastest delivery in 6 days"
+   ],
+   "discount_percent": 57,
+   "delivery_date_max": "2026-11-03",
+   "delivery_date_min": "2026-10-29",
+   "original_price_value": 22.79
+  }
+ ],
+ "_note": "Real run of 2026-10-23. The image galleries are cut to the first two URLs per row (the run returned five or six); every other field is as delivered."
+}
